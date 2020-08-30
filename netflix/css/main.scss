@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.showcase {
+    background: url('../img/background.jpg') no-repeat center center/cover;
+    background-size: cover;
+    width: 100%;
+    border-bottom: #444343 7px solid;
+
+}
+
+.wrapper {
+    padding: 1.5em;
+    margin: 0 auto;
+}
+
+.showcase-top {
+    display: flex;
+    padding-bottom:65px;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+
+.showcase-top img {
+    width: 170px;
+
+}
+
+.showcase-content {
+    text-align: center;
+    padding-bottom: 200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 .4em;
+}
+p {
+    font-size: 1.6rem;
+}
+
+span {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+h1, p {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input {
+    border: #817f7f 2px solid;
+    width: 40%;
+    height: 78px;
+    bottom: 6px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+input::placeholder {
+    position: relative;
+    left: 10px;
+}
+
+a.cta-get-started {
+    background: rgb(255, 0, 0);
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 10px;
+    right: 4px;
+    bottom: 1px;
+    position: relative;
+    font-size: 25px;
+}
+
+a.cta-get-started:hover {
+    text-decoration: none;
+}
+
+a.cta-sign-in {
+    background: rgb(255, 0, 0);
+    height: 40px;
+    line-height: 40px;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    padding: 0px;
+    margin-left: 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.parent-container {
+    display: flex;
+    align-items: center;
+    padding: 55px 350px 65px;
+    border-bottom: #444343 7px solid;
+}
+
+.text-container {
+    padding: 0 0 0 90px;
+}
+.text-container h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.text-container p {
+    text-align: left;
+
+}
+
+.image-container img {
+    width: 500px;
+    margin-left: 80px;
+}
